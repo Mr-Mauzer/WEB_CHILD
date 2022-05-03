@@ -16,7 +16,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    background: center no-repeat url(./Новая папка/hed-void.png);
+    background: center no-repeat url(./file/hed-void.png);
     background-size: cover;
     height: 188px;
 }
@@ -145,7 +145,7 @@ footer {
     display: flex;
     align-items: center;
     font-family: 'Nunito', sans-serif;
-    background: center no-repeat url(./Новая папка/hed-void.png);
+    background: center no-repeat url(./file/hed-void.png);
     background-size: cover;
     min-height: 188px;
     padding: 20px;
