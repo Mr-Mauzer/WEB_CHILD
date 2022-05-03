@@ -16,7 +16,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    background: center no-repeat url(./Новая\ папка/hed-void.png);
+    background: center no-repeat url(./Новая папка/hed-void.png);
     background-size: cover;
     height: 188px;
 }
