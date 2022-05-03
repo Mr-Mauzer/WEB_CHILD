@@ -16,7 +16,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    background: center no-repeat url(hed-void.png);
+    background: center no-repeat url(./Новая\ папка/hed-void.png);
     background-size: cover;
     height: 188px;
 }
@@ -145,7 +145,7 @@ footer {
     display: flex;
     align-items: center;
     font-family: 'Nunito', sans-serif;
-    background: center no-repeat url(hed-void.png);
+    background: center no-repeat url(./Новая папка/hed-void.png);
     background-size: cover;
     min-height: 188px;
     padding: 20px;
@@ -176,63 +176,4 @@ footer {
     white-space: nowrap;
 }
 
-/*media screen*/
-@media screen and (max-width: 1000px) {
-    .header_img {
-        width: 120px;
-        height: 120px;
-    }
-    .header_title {
-        font-size: 35px;
-    }
-    .header_subtitle {
-        font-size: 25px;
-    }
-}
-@media screen and (max-width: 760px) {
-    .header_inner {
-        position: relative;
-    }
-    .header_img {
-        position: absolute;
-        width: 50px;
-        height: 50px;
-    }
-    .header_img:first-child {
-        left: -60px;
-    }
-    .header_img:last-child {
-        right: -60px;
-    }
-    .header_title {
-        font-size: 30px;
-    }
-    .header_subtitle {
-        font-size: 20px;
-    }
-}
-@media screen and (max-width: 540px) {
-    .header_subtitle {
-        font-size: 16px;
-    }
-    .header_title {
-        font-size: 25px;
-    }
-    .pictures__row:not(.pictures__row:first-child) img {
-        width: 270px;
-        height: 270px;
-    }
-    .pictures__row:last-child .pictures__item:last-child{
-        margin-top: 70px;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    .footer__img {
-        display: none;
-    }
-}
-
-
 /* END */
-
